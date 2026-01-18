@@ -13,34 +13,26 @@ It was designed to make managing plugins easier and simpler than using NPM.
 
 **1.** Download the `.rar` template and extract it.
 
-**2.** Create your plugin or use an existing one.
+**2.** Download `CLI file .rar` and extract also.
 
-**3.** Open a terminal inside the folder.
-
-**4.** Run the command:
+**3.** Open CLI file and run the command:
 
 ```
-node exec/worker.js
+node install.js
 ```
 
-> [Optional] You can `cd` into the `exec/` folder and run:
+For install CLI globally.
+
+**4.** Open your project folder and run the command:
 
 ```
-node worker.js
+jsps i -p essentialsjs
 ```
 
-**5.** Enter the path to your project folder.
-Example:
+For install the official plugin, or create your own using the template file.
+For more informations about CLI, read the file `ChangeLOG-cli.md` in this repository.
 
-```
-C:\Users\ksdev\Downloads\JPS Test
-```
-
-Your plugin will be installed in:
-
-```
-C:\Users\ksdev\Downloads\JPS Test\js-plugins\template-plugin\
-```
+The plugin will be installed inside folder `js-plugins\essentialsjs\`
 
 ### Forks
 
