@@ -14,3 +14,10 @@ jsps -v
 jsps -github
 jsps -cmds
 ```
+
+#### v1.2.5 (Remastered)
+
+Simple addition for plugin creators, now plugin can have *versions*
+
+And in the JPS internal code, a new version check has been added, 
+"remastered" (jps-r = true)
